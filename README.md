@@ -1,70 +1,104 @@
-# Clon de Jira - Tablero Kanban
+# 🎯 Kanban Board
 
-Este es un proyecto de gestión de tareas inspirado en Jira, desarrollado con [Next.js](https://nextjs.org) y diseñado para ofrecer una experiencia fluida de gestión de proyectos.
+[![Next.js](https://img.shields.io/badge/Next.js-13.0-black.svg)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue.svg)](https://www.typescriptlang.org/)
+[![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.0-38B2AC.svg)](https://tailwindcss.com/)
+[![Framer Motion](https://img.shields.io/badge/Framer_Motion-10.0-ff69b4.svg)](https://www.framer.com/motion/)
 
-## Características
+A modern, responsive Kanban board application built with Next.js, TypeScript, and TailwindCSS. Manage your tasks with a beautiful drag-and-drop interface and real-time updates.
 
-- Tablero Kanban interactivo
-- Funcionalidad de arrastrar y soltar tareas
-- Interfaz moderna y responsive
-- Gestión de tareas en tiempo real
-- Diseño minimalista y funcional
+## ✨ Features
 
-## Requisitos Previos
+- 🎨 Modern and responsive design
+- 🔄 Drag and drop task management
+- ➕ Create, edit, and delete tasks
+- 📱 Mobile-friendly interface
+- 🌓 Beautiful gradient UI elements
+- ⚡ Real-time task status updates
+- 🎯 Multiple task status columns
 
-Antes de comenzar, asegúrate de tener instalado:
+## 🚀 Getting Started
 
-- Node.js (versión 18 o superior)
-- npm (administrador de paquetes de Node.js)
+### Prerequisites
 
-## Instalación
+- Node.js (v14 or higher)
+- npm or yarn
 
-1. Clona el repositorio:
+### Installation
+
+1. Clone the repository:
 ```bash
-git clone https://github.com/kirEwc/jira-clone.git
-cd jira-clone
+git clone https://github.com/yourusername/kanban-board.git
 ```
 
-2. Instala las dependencias:
+2. Install dependencies:
 ```bash
+cd kanban-board
 npm install
+# or
+yarn install
 ```
 
-3. Inicia el servidor de desarrollo:
+3. Run the development server:
 ```bash
 npm run dev
+# or
+yarn dev
 ```
 
-4. Abre [http://localhost:3000](http://localhost:3000) en tu navegador para ver la aplicación.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## Estructura del Proyecto
+## 🛠️ Built With
 
-- `/src/app`: Contiene los componentes principales de la aplicación
-- `/src/app/dashboard`: Página principal del dashboard
-- `/src/app/dashboard/tablero`: Implementación del tablero Kanban
+- [Next.js](https://nextjs.org/) - React framework for production
+- [TypeScript](https://www.typescriptlang.org/) - Static type checking
+- [TailwindCSS](https://tailwindcss.com/) - Utility-first CSS framework
+- [Framer Motion](https://www.framer.com/motion/) - Animation library
+- [@hello-pangea/dnd](https://github.com/hello-pangea/dnd) - Drag and drop functionality
+- [React Icons](https://react-icons.github.io/react-icons/) - Icon components
 
-## Tecnologías Utilizadas
+## 📱 Features in Detail
 
-- Next.js 14
-- React
-- Tailwind CSS
-- TypeScript
+### Task Management
+- Create new tasks with title and description
+- Edit existing tasks
+- Delete tasks
+- Drag and drop tasks between status columns
 
-## Desarrollo
+### Status Columns
+- All Tasks
+- In Progress
+- In Review
+- Complete
 
-Puedes comenzar a editar la aplicación modificando los archivos en `src/app`. La aplicación se actualizará automáticamente mientras editas los archivos.
+### UI/UX
+- Smooth animations and transitions
+- Responsive design for all screen sizes
+- Intuitive drag and drop interface
+- Beautiful gradient backgrounds
+- Loading states and indicators
 
-Este proyecto utiliza [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) para optimizar y cargar automáticamente [Geist](https://vercel.com/font), una familia de fuentes de Vercel.
+## 🤝 Contributing
 
-## Aprende Más
+Contributions are welcome! Feel free to:
 
-Para aprender más sobre Next.js, consulta los siguientes recursos:
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-- [Documentación de Next.js](https://nextjs.org/docs) - aprende sobre las características y API de Next.js.
-- [Aprende Next.js](https://nextjs.org/learn) - un tutorial interactivo de Next.js.
+## 📄 License
 
-## Despliegue en Vercel
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-La forma más fácil de desplegar tu aplicación Next.js es utilizar la [Plataforma Vercel](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) de los creadores de Next.js.
+## 🙏 Acknowledgments
 
-Consulta nuestra [documentación de despliegue de Next.js](https://nextjs.org/docs/app/building-your-application/deploying) para más detalles.
+- Next.js team for the amazing framework
+- TailwindCSS team for the utility-first CSS framework
+- Framer Motion team for the animation library
+- Hello Pangea team for the drag and drop functionality
+
+---
+
+Made with ❤️ by [Your Name](https://github.com/yourusername)
