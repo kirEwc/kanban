@@ -28,22 +28,20 @@ A modern, responsive Kanban board application built with Next.js, TypeScript, an
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/kanban-board.git
+git clone https://github.com/yourusername/kanban.git
 ```
 
 2. Install dependencies:
 ```bash
-cd kanban-board
+cd kanban
 npm install
-# or
-yarn install
+
 ```
 
 3. Run the development server:
 ```bash
 npm run dev
-# or
-yarn dev
+
 ```
 
 4. Open [http://localhost:3000](http://localhost:3000) in your browser.
@@ -101,4 +99,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-Made with ❤️ by [Your Name](https://github.com/yourusername)
+Made with ❤️ by [Your Name](https://github.com/kirEwc)
